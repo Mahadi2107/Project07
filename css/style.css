@@ -1,0 +1,228 @@
+/* ==============================
+         Basic settings
+===============================*/
+@font-face {
+  font-family: aachenn;
+  src: url(aachenn.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+a,
+input,
+button {
+  margin: 0;
+  padding: 0;
+}
+.active {
+  color: #e58f00;
+}
+.btn {
+  padding: 0.475rem 2rem;
+  font-size: 1.25rem;
+}
+body {
+  font-family: aachenn;
+  color: #fff;
+  /* max-width: 1440px; */
+}
+/* ==============================
+         text color
+===============================*/
+.text-white {
+  color: #fff;
+}
+.text-orange {
+  color: #e58f00;
+}
+.text-dark {
+  color: #28282d;
+}
+/* ==============================
+        background color
+===============================*/
+.bg-white {
+  background-color: #fff;
+}
+.bg-orange {
+  background-color: #e58f00;
+}
+.bg-dark {
+  background-color: #1d1d23 !important;
+}
+/* ==============================
+         header section
+===============================*/
+header {
+  background-image: linear-gradient(
+      rgba(29, 29, 35, 0.9),
+      rgba(29, 29, 35, 0.9)
+    ),
+    url(../img/bg-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3.125rem 0;
+}
+header a {
+  color: #fff;
+}
+header a:hover {
+  color: #e58f00;
+}
+.navbar-expand-lg .navbar-nav {
+  margin-left: auto;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255, 255, 255);
+}
+header h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+header p {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+/* ==============================
+         about section
+===============================*/
+.h3 {
+  font-size: 1.75rem;
+  line-height: 40px;
+}
+/* ==============================
+         quality section
+===============================*/
+.quality-section {
+  position: relative;
+}
+.quality-section .shape-img1 {
+  width: 100%;
+  height: auto;
+}
+.quality-section .q-img1 {
+  width: 33%;
+  height: 45%;
+  position: absolute;
+  top: -6%;
+  right: 0;
+}
+.quality-section .q-img2 {
+  width: 60%;
+  height: 57%;
+  position: absolute;
+  bottom: 2.8%;
+  right: -1%;
+}
+.quality-section .q-img3 {
+  width: 36%;
+  height: 33%;
+  position: absolute;
+  bottom: 6%;
+  left: 0;
+}
+.quality-section .quality-right {
+  position: absolute;
+  top: 20%;
+  left: 8%;
+}
+/* ==============================
+        enjoy our food section
+===============================*/
+.enjoy-food-section {
+  position: relative;
+}
+.enjoy-food-section .enjoy-food-box {
+  border: 5px solid #e58f00;
+  width: 50%;
+  height: 50%;
+  padding: 4rem;
+  background: linear-gradient(rgba(29, 29, 35, 0.9), rgba(29, 29, 35, 0.9));
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.enjoy-food-section .enjoy-food-box h2 {
+  font-size: 4vw;
+  margin-bottom: 2rem;
+}
+.enjoy-food-section .enjoy-food-box p {
+  font-size: 2vw;
+}
+/* ==============================
+        enjoy best meal section
+===============================*/
+.best-meal-section {
+  position: relative;
+}
+.best-meal-section .shape-img-2 {
+  width: 100%;
+  height: auto;
+}
+.best-meal-section .best-meal-img {
+  width: 45%;
+  height: auto;
+  position: absolute;
+  top: -14%;
+  left: 1%;
+}
+.best-meal-section .best-meal-box {
+  position: absolute;
+  top: 17%;
+  right: 8%;
+  width: 40%;
+}
+.best-meal-section .best-meal-box h2 {
+  margin-bottom: 4%;
+  font-size: 5vw;
+}
+.best-meal-section .best-meal-box p {
+  font-size: 2.5vw;
+}
+/* ==============================
+      Footer section
+===============================*/
+footer {
+  background: #35353b;
+}
+
+.footer-ul {
+  list-style: none;
+  text-transform: uppercase;
+}
+.footer-ul li {
+  display: inline-block;
+}
+.footer-ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 10px;
+  display: inline-block;
+  margin: 0 10px;
+}
+.social.my-5 i {
+  margin: 10px;
+  background: #fff;
+  color: #35353b;
+  font-size: 19px;
+  padding: 8px 10px;
+  border-radius: 50%;
+}
+.social i:hover {
+  background: #ddd;
+}
